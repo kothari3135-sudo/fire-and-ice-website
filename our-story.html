@@ -1,57 +1,81 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fire & Ice — Our Story</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body class="theme--light">
-    <div data-include="header.html"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fire & Ice — Our Story</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-    <main>
-      <header class="page-hero">
+<body class="theme--light">
+  <div data-include="header.html"></div>
+
+  <main>
+    <article class="editorial-story">
+
+      <header class="page-hero fade-in">
         <div class="container">
           <h1>Our Story</h1>
-          <p>A lineage of craft and contemporary design.</p>
+          <p>Heritage crafted. Modern defined.</p>
+
+          <div class="collection-hero-banner" style="margin-top: 32px;">
+            <img src="assets/img/story/story-hero.jpg" alt="Fire and Ice Heritage" style="background:var(--parchment)">
+          </div>
         </div>
       </header>
 
-      <section id="founder" class="section">
-        <div class="container">
-          <h2>Founder</h2>
-          <p>[Founder letter / portrait placeholder]</p>
+      <div class="container fade-in delay-1">
+        <div id="timeline" style="scroll-margin-top: 100px;">
+          <p class="story-intro">
+            FIRE & ICE by mamta kothari was born from a singular belief: that Indian designer jewellery should not be relegated to bank vaults. We design for the modern woman who honors her heritage but lives firmly in the present.
+          </p>
         </div>
-      </section>
 
-      <section id="timeline" class="section section--light">
-        <div class="container">
-          <h2>Timeline</h2>
-          <ul class="timeline">
-            <li><strong>Year</strong> — Milestone.</li>
-            <li><strong>Year</strong> — Milestone.</li>
-          </ul>
+        <div class="story-split" id="founder" style="scroll-margin-top: 100px;">
+          <div class="story-image">
+            <img src="assets/img/story/founder.jpg" alt="Mamta Kothari" style="background:var(--parchment)">
+          </div>
+          <div class="story-text">
+            <h2>The Founder</h2>
+            <p>Mamta Kothari recognized a gap between heavy, traditional ceremonial wear and the sleek, often soulless modern alternatives. Her vision was to bridge this divide—stripping away the excess weight of antique designs while preserving the masterful techniques of Kundan, Polki, and Meenakari.</p>
+            <p>Every piece she designs is a conversation between past and present, crafted to be worn, lived in, and eventually passed down.</p>
+          </div>
         </div>
-      </section>
 
-      <section id="uniquely-us" class="section">
-        <div class="container">
-          <h2>Uniquely Us</h2>
-          <p>[Values, materials, processes]</p>
+        <div class="story-split reverse" id="uniquely-us" style="scroll-margin-top: 100px;">
+          <div class="story-image">
+            <img src="assets/img/story/philosophy.jpg" alt="Jewellery details" style="background:var(--parchment)">
+          </div>
+          <div class="story-text">
+            <h2>Uniquely Us</h2>
+            <p>We do not believe in mass production. Our collections are highly curated edits, focusing on modularity and versatility. A heavy bridal necklace transforms into a delicate evening choker; a statement earring dismantles into a subtle daytime stud.</p>
+            <p>This is intelligent luxury. It is jewellery that adapts to your life, rather than demanding you adapt to it.</p>
+          </div>
         </div>
-      </section>
 
-      <section id="our-craft" class="section section--light">
-        <div class="container">
-          <h2>Our Craft</h2>
-          <p>[Kaarigar quotes, techniques overview]</p>
+        <div class="story-split" id="our-craft" style="scroll-margin-top: 100px;">
+          <div class="story-image">
+            <img src="assets/img/story/craft.jpg" alt="Kaarigars at work" style="background:var(--parchment)">
+          </div>
+          <div class="story-text">
+            <h2>The Craft</h2>
+            <p>We work exclusively with master Kaarigars, artisans whose families have been setting stones and pouring enamel for generations. We honor their time-tested methods, but we challenge them with contemporary geometries and lighter, more breathable frameworks.</p>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-top: 16px;">
+              <a href="kaarigari.html" class="btn">Explore Kaarigari</a>
+              <a href="collections.html" class="btn">View Collections</a>
+            </div>
+
+          </div>
         </div>
-      </section>
-    </main>
+      </div>
 
-    <div data-include="footer.html"></div>
+    </article>
+  </main>
 
-    <script src="assets/js/includes.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <div data-include="footer.html"></div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>

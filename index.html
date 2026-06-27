@@ -1,101 +1,126 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fire & Ice — Home</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body class="theme--dark">
-    <div data-include="header.html"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FIRE & ICE by mamta kothari</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-    <main>
-      <!-- HERO -->
-      <section id="hero" aria-label="Hero">
-        <div class="container">
-          <h1>Fire &amp; Ice</h1>
-          <p>Heritage crafted. Modern defined.</p>
-          <nav class="cta-row">
-            <a href="our-story.html" class="cta">Our Story</a>
-            <a href="collections.html" class="cta">Explore Collections</a>
-          </nav>
+<body class="theme--light">
+  <div data-include="header.html"></div>
+
+  <main>
+
+    <header class="page-hero fade-in">
+      <div class="container">
+        <h1 style="font-size: clamp(2rem, 4vw + 1rem, 3.5rem); letter-spacing: 0.15em; margin-bottom: 8px;">Heritage Crafted</h1>
+        <p style="font-family: var(--ff-head); font-size: clamp(1.2rem, 2vw + 0.8rem, 1.8rem); letter-spacing: 0.2em; color: var(--antique-gold); text-transform: uppercase;">Modern Defined.</p>
+      </div>
+    </header>
+
+    <section class="hero-video-section fade-in delay-1">
+      <div class="hero-video-wrapper">
+        <video autoplay muted loop playsinline poster="assets/img/hero-poster.jpg">
+          <source src="assets/video/hero-ambient.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section class="section fade-in delay-2" style="padding-top: 20px; padding-bottom: 60px;">
+      <div class="container">
+        <p class="story-intro" style="font-family: var(--ff-body); color: var(--charcoal);">
+          We break the boundaries of the bank vault. FIRE & ICE designs collections for the contemporary woman, combining ancestral Indian gemstone setups with lightweight engineering frameworks to build brilliant modular statements. We breathe new, purposeful life into ancestral heirlooms.
+        </p>
+        <div style="text-align: center; margin-top: 24px;">
+          <a href="our-story.html" class="btn">Discover Our Philosophy</a>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- COLLECTIONS OVERVIEW (editorial cards, no PDP links) -->
-      <section id="collections-overview" aria-label="Collections Overview" class="section--light">
-        <div class="container">
-          <header class="section-head">
-            <h2>Collections</h2>
-            <p>Stories told in gold and stone.</p>
-          </header>
-          <div class="grid" id="collections-grid">
-            <!-- placeholder editorial tiles -->
-            <article class="tile">
-              <h3>Collection One</h3>
-              <p>Short narrative…</p>
-            </article>
-            <article class="tile">
-              <h3>Collection Two</h3>
-              <p>Short narrative…</p>
-            </article>
-            <article class="tile">
-              <h3>Collection Three</h3>
-              <p>Short narrative…</p>
-            </article>
+    <section class="section fade-in delay-3" style="background-color: rgba(232, 221, 204, 0.25); border-top: 1px solid var(--parchment); border-bottom: 1px solid var(--parchment);">
+      <div class="container">
+
+        <div style="text-align: center; margin-bottom: 48px;">
+          <h2 style="font-size: var(--fs-h2); letter-spacing: 0.2em;">The Collections</h2>
+          <p style="color: var(--muted); font-size: var(--fs-small); text-transform: uppercase; letter-spacing: 0.1em; margin-top: 4px;">Stories told in gold and stone.</p>
+        </div>
+
+        <div class="collections-grid">
+
+          <a class="collection-card" href="collection.html?c=heirloom-modules">
+            <div class="collection-img">
+              <img src="assets/img/collections/heirloom-modules/hero.jpg" alt="Heirloom Modules Edit">
+            </div>
+            <div class="collection-body" style="text-align: center;">
+              <h2>Heirloom Modules</h2>
+              <p>Versatile kundan and polki architectures engineered with customizable configurations.</p>
+            </div>
+          </a>
+
+          <a class="collection-card" href="collection.html?c=seasons-in-bloom">
+            <div class="collection-img">
+              <img src="assets/img/collections/seasons-in-bloom/hero.jpg" alt="Seasons in Bloom Edit">
+            </div>
+            <div class="collection-body" style="text-align: center;">
+              <h2>Seasons in Bloom</h2>
+              <p>Breathable modern floral matrices showcasing vibrant translucent enameled details.</p>
+            </div>
+          </a>
+
+          <a class="collection-card" href="collection.html?c=aradhana">
+            <div class="collection-img">
+              <img src="assets/img/collections/aradhana/hero.jpg" alt="Aradhana Edit">
+            </div>
+            <div class="collection-body" style="text-align: center;">
+              <h2>Aradhana</h2>
+              <p>Devotional configurations carrying ancient matte gold forms adapted for modern weight.</p>
+            </div>
+          </a>
+
+        </div>
+
+        <div style="text-align: center; margin-top: 48px;">
+          <a href="collections.html" class="btn">View All Narratives</a>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section fade-in delay-3">
+      <div class="container">
+
+        <div class="story-split">
+          <div class="story-image">
+            <img src="assets/img/story/craft.jpg" alt="Kaarigars at gold work bench" style="background:var(--parchment); aspect-ratio: 16/10;">
           </div>
-          <p class="more-link"><a href="collections.html">View all collections</a></p>
+          <div class="story-text">
+            <h2>The Art of Kaarigari</h2>
+            <p>Our pieces owe their soul to ancient artisan families pouring passion into molds and carving complex gold matrices for generations. We honor these time-tested methods, but push master frameworks toward contemporary geometric greatness.</p>
+            <a href="kaarigari.html" class="btn" style="align-self: flex-start; margin-top: 12px;">Learn Our Craft</a>
+          </div>
         </div>
-      </section>
 
-      <!-- CRAFT / KAARIGARS TEASER -->
-      <section id="craft-teaser" aria-label="Our Craft">
-        <div class="container">
-          <h2>Our Craft</h2>
-          <p>Meenakari, jadau, kundan — by master kaarigars.</p>
-          <p><a href="our-story.html#our-craft">Learn our craft</a></p>
+        <div class="story-split reverse" style="margin-bottom: 0;">
+          <div class="story-image">
+            <img src="assets/img/story/philosophy.jpg" alt="Rebuilding ancestral stones" style="background:var(--parchment); aspect-ratio: 16/10;">
+          </div>
+          <div class="story-text">
+            <h2>Giving New Life</h2>
+            <p>We approach family heirlooms with deep historic sensitivity. By unlocking antique elements from rigid heavy old mountings, we carefully forge them into delicate, high-impact pieces scaled for daily life.</p>
+            <a href="new-life.html" class="btn" style="align-self: flex-start; margin-top: 12px;">See The Rework Process</a>
+          </div>
         </div>
-      </section>
 
-      <!-- NEW LIFE (REWORK) TEASER -->
-      <section id="new-life-teaser" aria-label="Rework / New Life" class="section--light">
-        <div class="container">
-          <h2>New Life</h2>
-          <p>We reimagine heirlooms with sensitivity and skill.</p>
-          <p><a href="services.html#new-life">See how we rework</a></p>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- CATEGORIES QUICK ACCESS -->
-      <section id="quick-cats" aria-label="Categories">
-        <div class="container">
-          <h2>Browse by Category</h2>
-          <nav class="pill-nav">
-            <a href="category.html?slug=rings">Rings</a>
-            <a href="category.html?slug=necklaces">Necklaces</a>
-            <a href="category.html?slug=earrings">Earrings</a>
-            <a href="category.html?slug=bracelets">Bracelets</a>
-            <a href="category.html?slug=sets">Sets</a>
-            <a href="category.html?slug=pendants">Pendants</a>
-          </nav>
-        </div>
-      </section>
+  </main>
 
-      <!-- CONTACT TEASER -->
-      <section id="contact-teaser" class="section--light">
-        <div class="container">
-          <h2>Contact Us</h2>
-          <p>Instagram • Email • Phone — we’d love to hear from you.</p>
-          <p><a href="contact.html">Get in touch</a></p>
-        </div>
-      </section>
-    </main>
+  <div data-include="footer.html"></div>
 
-    <div data-include="footer.html"></div>
-
-    <div id="modal-root" aria-live="polite"></div>
-
-    <script src="assets/js/includes.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>

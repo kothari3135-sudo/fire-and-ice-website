@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FIRE & ICE — Categories Hub</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Premium visual nesting rules for the side-by-side category teaser clusters */
+    .hub-category-wrapper { margin-bottom: 80px; border-bottom: 1px solid var(--parchment); padding-bottom: 48px; }
+    .hub-category-wrapper:last-child { border-bottom: none; margin-bottom: 40px; }
+    .hub-category-header { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 24px; }
+    .hub-category-header h2 { margin: 0; letter-spacing: 0.2em; font-size: var(--fs-h3); }
+    .hub-category-header .view-all-link { font-family: var(--ff-ui); font-size: 11px; text-transform: uppercase; letter-spacing: 0.15em; color: var(--antique-gold); text-decoration: none; border-bottom: 1px solid transparent; padding-bottom: 2px; }
+    .hub-category-header .view-all-link:hover { border-color: var(--antique-gold); }
+    .hub-teaser-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+    @media (max-width: 576px) { .hub-teaser-grid { grid-template-columns: 1fr; gap: 32px; } }
+  </style>
+</head>
+
+<body class="theme--light">
+  <div data-include="header.html"></div>
+
+  <main>
+    <header class="page-hero fade-in">
+      <div class="container">
+        <h1>Browse Curations</h1>
+        <p>Explore our designer offerings by geometry and form.</p>
+      </div>
+    </header>
+
+    <section class="section fade-in delay-1" style="padding-top: 0;">
+      <div class="container" id="categories-hub-injector">
+        <p style="text-align:center; color: var(--muted);">Connecting to inventory matrix...</p>
+      </div>
+    </section>
+  </main>
+
+  <div data-include="footer.html"></div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+z

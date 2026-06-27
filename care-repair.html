@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fire & Ice — Care & Restoration</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <style>
+    /* Clean micro-formatting for the Dos and Don'ts comparison blocks */
+    .guideline-matrix { display: flex; flex-direction: column; gap: 40px; margin-top: 56px; }
+    @media(min-width:768px) { .guideline-matrix { flex-direction: row; gap: 64px; } }
+    .guideline-col { flex: 1; }
+    .guideline-col h3 { font-size: 16px; letter-spacing: 0.15em; margin-bottom: 20px; padding-bottom: 8px; border-bottom: 2px solid var(--parchment); }
+    .guideline-col.dos h3 { border-color: var(--emerald); color: var(--emerald); }
+    .guideline-col.donts h3 { border-color: var(--ruby); color: var(--ruby); }
+    .guideline-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 16px; }
+    .guideline-list li { position: relative; padding-left: 24px; line-family: var(--ff-body); color: var(--charcoal); }
+    .guideline-list li::before { content: '•'; position: absolute; left: 0; top: 0; color: var(--antique-gold); font-size: 18px; }
+  </style>
+</head>
+
+<body class="theme--light">
+  <div data-include="header.html"></div>
+
+  <main>
+    <article class="editorial-story">
+
+      <header class="page-hero fade-in">
+        <div class="container">
+          <h1>Care & Restoration</h1>
+          <p>Preserving the brilliant luster of fine materials across generations.</p>
+
+          <div class="collection-hero-banner" style="margin-top: 32px;">
+            <img src="assets/img/services/care-hero.jpg" alt="Master artisan cleaning and refining historical gold frames at the workshop bench" style="background:var(--parchment)">
+          </div>
+        </div>
+      </header>
+
+      <div class="container fade-in delay-1" style="margin-bottom: 80px;">
+
+        <div style="max-width: 850px; margin: 0 auto; text-align: center; border-bottom: 1px solid var(--parchment); padding-bottom: 48px;">
+          <h2 style="font-size: var(--fs-h3); letter-spacing: 0.15em; margin-bottom: 16px;">Our Lifetime Atelier Guarantee</h2>
+          <p style="line-height: 1.8; font-family: var(--ff-body); text-align: justify; text-justify: inter-word;">
+            Fine structural designer jewelry is an investment in human art intended to cross lifetimes. To support this commitment, our ateliers stand entirely behind the technical integrity of every Fire & Ice creation. Should your piece experience accidental stress, stone loosening, or structural issues, we offer complimentary repair services and precision tightening adjustments—ensuring your personal legacy remains flawless without requiring transactional warranty contracts.
+          </p>
+        </div>
+
+        <div class="guideline-matrix">
+
+          <div class="guideline-col dos">
+            <h3>Atelier Preservation Dos</h3>
+            <ul class="guideline-list">
+              <li><strong>Store Independently:</strong> Keep your kundan and polki pieces wrapped in soft clean linen or velvet pouches within an airtight container to avoid scratching your gold finishes.</li>
+              <li><strong>Apply Cosmetics First:</strong> Ensure all luxury fragrances, fine hairsprays, and alcohol-based cosmetics are absorbed completely before dressing in your fine jewelry.</li>
+              <li><strong>Verify Links Regularly:</strong> Inspect your customizable modular safety hinges and safety locks carefully before wearing pieces to formal gatherings.</li>
+              <li><strong>Wipe Gentry:</strong> After each wear, use an ultra-soft micro-abrasive cloth to delicately clean accumulated skin oils from metal frames before locking them away.</li>
+            </ul>
+          </div>
+
+          <div class="guideline-col donts">
+            <h3>Preservation Don'ts</h3>
+            <ul class="guideline-list">
+              <li><strong>Avoid Chemical Immersion:</strong> Never expose delicate traditional meenakari enamels or kundan foil settings to liquid jewel cleaning solutions or ultrasonic tanks.</li>
+              <li><strong>Protect From Moisture:</strong> Keep traditional jadau work completely clear of tap water, steam rooms, pools, and humid storage spaces to avoid darkening the foil seals.</li>
+              <li><strong>Eliminate Abrasive Impact:</strong> Avoid wearing substantial ceremonial pieces during active sports or cleanups to preserve the technical alignments of your settings.</li>
+              <li><strong>Avoid Direct Heat:</strong> Prevent placing gemstones or soft natural pearl strands close to direct high heaters or continuous harsh sunlight to avoid material cracking.</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+
+    </article>
+  </main>
+
+  <div data-include="footer.html"></div>
+
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

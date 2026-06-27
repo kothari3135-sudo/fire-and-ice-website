@@ -1,39 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Fire & Ice — Category</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body class="theme--light">
-    <div data-include="header.html"></div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fire & Ice — Products</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
 
-    <main>
-      <header class="page-hero">
-        <div class="container">
-          <h1 id="cat-title">Category</h1>
-          <nav class="pill-nav">
-            <a href="?slug=bridal">Bridal</a>
-            <a href="?slug=traditional">Traditional</a>
-            <a href="?slug=modern">Modern/Party</a>
-            <a href="?slug=daily">Daily</a>
-          </nav>
+<body class="theme--light">
+  <div data-include="header.html"></div>
+
+  <main>
+    <header class="page-hero fade-in">
+      <div class="container">
+        <h1 id="category-title">Our Jewellery</h1>
+        <p>Explore our curated designer pieces.</p>
+      </div>
+    </header>
+
+    <section class="section fade-in delay-1" style="padding-top: 0;">
+      <div class="container">
+        <div class="collections-grid" id="product-grid-container">
+            <p style="text-align:center; color: var(--muted); grid-column: 1/-1;">Loading curated pieces...</p>
         </div>
-      </header>
+      </div>
+    </section>
+  </main>
 
-      <section class="section">
-        <div class="container">
-          <div id="category-grid" class="grid md-3 lg-4"></div>
-        </div>
-      </section>
-    </main>
+  <div id="modal-root"></div>
 
-    <div data-include="footer.html"></div>
+  <div data-include="footer.html"></div>
 
-    <div id="modal-root" aria-live="polite"></div>
-
-    <script src="assets/js/includes.js"></script>
-    <script src="assets/js/main.js"></script>
-  </body>
+  <script src="assets/js/includes.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
 </html>
